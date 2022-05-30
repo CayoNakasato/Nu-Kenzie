@@ -1,0 +1,65 @@
+.itemListGreen{
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 5px solid green;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.itemListRed{
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 5px solid red;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+.infoBoxOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBoxTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.description{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.option{
+    font-weight: 700;
+}
+
+.btnDelete{
+    border: none;
+    background-color: #fff;
+}
+
+.value{
+    color:#FD377E;
+    font-weight: 600;
+}
+
+.btnDelete:hover{
+    cursor: pointer;
+}
+
+
+@media (min-width:768px){
+    .itemListGreen, .itemListRed{
+        width: 25rem;
+        margin-left: 50px;
+    }
+}

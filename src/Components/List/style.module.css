@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.headerList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTitleList{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding-right: 10px;
+}
+
+.filtrosAll{
+    background-color: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 10px;
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.filtro{
+    background-color: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 10px;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.filtro:hover, .filtrosAll:hover{
+    cursor: pointer;
+    background-color: #FD377E;
+}
+
